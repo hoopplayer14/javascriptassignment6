@@ -1,0 +1,10 @@
+var userInput = prompt('Enter a number:', '');
+var num = parseInt(userInput);
+if ((num %11) == 0)
+{
+  alert('You're number is a multiple of 11.');
+}
+else
+{
+  alert('You're number is not a multiple of 11.');
+}
